@@ -1,10 +1,31 @@
 function solve(num) {
-    let name = "num";
-    let buf = "";
-    let l = name.length;
-    for (i = 1; i >= l; i++) {
-        buf = l;
-    }console.log(buf);
+    
+    let a = num % 10;
+
+    switch (a) {
+        case 1:
+            console.log("one"); break;
+        case 2:
+            console.log("two"); break;
+        case 3:
+            console.log("three"); break;
+        case 4:
+            console.log("four"); break;
+        case 5:
+            console.log("five"); break;
+        case 6:
+            console.log("six"); break;
+        case 7:
+            console.log("seven"); break;
+        case 8:
+            console.log("eight"); break;
+        case 9:
+            console.log("nine"); break;
+        case 0:
+            console.log("null"); break;
+    
+        
+    }
 
 }
-solve(512);
+solve(1643);
