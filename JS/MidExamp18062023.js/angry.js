@@ -45,8 +45,6 @@ function solve(price, entryPoint, type) {
 
     }
 
-    
-
     if(sumOfLeft >= sumOfRight) {
         console.log(`Left - ${sumOfLeft}`);
     }else{
@@ -57,8 +55,8 @@ function solve(price, entryPoint, type) {
 
 
 }
-solve([-2, 2, 1, 5, 9, 3, 2, -2, 1, -1, -3, 3],
+solve([5, 10, 12, 5, 4, 20],
 
-    7,
+    3,
     
-    "expensive");
+    "cheap");
